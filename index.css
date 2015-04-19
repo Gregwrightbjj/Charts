@@ -1,0 +1,28 @@
+body{
+	font-size: 0;
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+.chart-container{
+	font-size: 13px;
+	margin-left: 37%;
+	display: inline-block;
+}
+.chart-title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+  	color: #00009c;
+  	border-bottom: solid black 1px;
+  	margin-bottom: 10px;
+}
+.img{
+	width: 100%;
+	height: 350px;
+}
+@media screen and ( max-width:800px ){
+	.chart-container{
+		margin-left:28%;
+	}
+}
